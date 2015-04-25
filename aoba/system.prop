@@ -1,0 +1,16 @@
+# Radio
+persist.data_netmgrd_nint=11
+mobiledata.interfaces=rmnet_sdio0,rmnet_sdio1
+ro.telephony.default_network=9
+telephony.lteOnGsmDevice=1
+
+# rild
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+rild.libargs=-d /dev/smd0
+ril.subscription.types=NV,RUIM
+
+# Graphics
+ro.sf.lcd_density=320
+
+# HDMI
+ro.hdmi.enable=true
